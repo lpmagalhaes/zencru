@@ -17,11 +17,11 @@ class ${nomeTabela} extends BaseEntity
      */
     protected $id;
    
-    public setId($id){
+    public function setId($id){
         $this->id = $id;
     }
     
-    public getId(){
+    public function getId(){
         $this->id;
     }
 }
